@@ -1,6 +1,7 @@
 require 'pry'
 
 def hello(array)
+  collection = []
   i = 0
   while i < array.length
     yield(array[i])
